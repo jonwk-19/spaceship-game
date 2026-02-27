@@ -1,4 +1,3 @@
-// Juego.cpp (Windows Console) - Refactor pro
 #include <stdio.h>
 #include <windows.h>
 #include <conio.h>
@@ -12,11 +11,11 @@ const int HEIGHT = 25;   // alto del área
 
 const int HUD_Y = 0;     // fila del HUD (arriba)
 const int PLAY_MIN_X = 1;
-const int PLAY_MIN_Y = 2;              // dejamos fila 1 para borde superior
+const int PLAY_MIN_Y = 2;
 const int PLAY_MAX_X = WIDTH - 2;      // borde en WIDTH-1
 const int PLAY_MAX_Y = HEIGHT - 2;     // borde en HEIGHT-1
 
-// nave dibuja
+// nave
 const int SHIP_W = 6;
 const int SHIP_H = 2;
 
